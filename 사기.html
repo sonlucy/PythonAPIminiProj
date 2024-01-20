@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>사기통계</title>
+  <style>
+    header {
+      text-align: left;
+      background-color: midnightblue;
+      height: 100px;
+      display: flex;
+    }
+/*     body {
+      text-align: center;
+    } */
+    h1 {
+      width: 300px;
+      height: 100px;
+      padding-left: 20px;
+      line-height: 90px;
+      color: white;
+    }
+
+    #graph1,
+    #graph2 {
+      width: 100%;
+      height: auto;
+      /* background-color: rgb(184, 214, 248); */
+    }
+
+    #homeButton {
+      padding-right: 20px;
+      padding-top: 10px;
+      /*       float: right; */
+      margin-left: auto;
+      color: white;
+      text-decoration: none;
+    }
+
+    footer {
+      margin-top: 400px;
+      height: 80px;
+      background-color: aliceblue;
+      text-align: right;
+      padding-top: 30px;
+      padding-right: 50px;
+      color: rgb(83, 185, 219);
+    }
+
+    h4 {
+      color: rgb(155, 214, 234);
+    }
+
+    img {
+/*       align-items: center;
+      display: block; */
+      width: 80%;
+    }
+
+    p {
+      width: 80%;
+      margin-left: 20px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div id="logo">
+      <h1>사기 통계</h1>
+    </div>
+    <a id="homeButton" href="/범죄.html">홈</a>
+  </header>
+
+  <br>
+  <div id="graph1">
+    <img src="/images/2_사기_요일별.png" alt="">
+    <div id="des">
+      <p>요일별로는 월요일부터 금요일까지 5만 건 이상으로 유사한 수치를 보입니다. 이는 시간대와 마찬가지로 주중, 즉 업무 시간 중에 많은 사기 행각이 발생하는 것을 알수있습니다.</p>
+    </div>
+  </div>
+
+  <br><hr>
+
+  <div id="graph2">
+    <img src="/images/1_사기_시간별.png" alt="">
+    <div id="des">
+      <p>09-12시 사이에 가장많은 사기행각이 일어났습니다. 그 다음으로는 12-3시 그리고 3-6시사이 순으로 많이 일어난것으로 보아 사기행각이 주로 업무시간 (은행 및 관공서 업무시간)에 일어난걸
+        알수있습니다.</p>
+      <p>사기 행각은 주로 오전 9시부터 12시까지 가장 많이 발생하며, 그 다음으로 12시부터 3시까지, 그리고 3시부터 6시까지 높은 빈도로 발생하고 있습니다. 이로써 사기 행각은 주로 업무 시간에
+        발생하는 것으로 보여지며, 이는 금융 기관 및 정부 기관의 업무 시간과 일치하는걸 알수있습니다.</p>
+    </div>
+  </div>
+  <footer>
+    <h3>Made by_Myeong, Yeon, Kyeong, Eun</h3>
+    <h4>@MultiCampus 6th</h4>
+  </footer>
+</body>
+
+</html>

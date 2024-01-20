@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>폭행통계</title>
+  <style>
+    header {
+      text-align: left;
+      background-color: midnightblue;
+      height: 100px;
+      display: flex;
+    }
+
+    h1 {
+      width: 300px;
+      height: 100px;
+      padding-left: 20px;
+      line-height: 90px;
+      color: white;
+    }
+
+    #graph1,
+    #graph2 {
+      width: 100%;
+      height: auto;
+      /* background-color: rgb(184, 214, 248); */
+    }
+
+    #homeButton {
+      padding-right: 20px;
+      padding-top: 10px;
+      /*       float: right; */
+      margin-left: auto;
+      color: white;
+      text-decoration: none;
+    }
+
+    footer {
+      margin-top: 400px;
+      height: 80px;
+      background-color: aliceblue;
+      text-align: right;
+      padding-top: 30px;
+      padding-right: 50px;
+      color: rgb(83, 185, 219);
+    }
+
+    img {
+      /* align-items: center;
+    display: block; */
+      width: 80%;
+    }
+
+    p {
+      width: 80%;
+      margin-left: 20px;
+      font-size: 20px;
+      font-weight: bold;
+
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div id="logo">
+      <h1>폭행 통계</h1>
+    </div>
+    <a id="homeButton" href="범죄.html">홈</a>
+  </header>
+
+  <br>
+  <div id="graph1">
+    <img src="/images/6_폭행_요일별.png" alt="">
+    <div id="des">
+      <p>요일별로 살펴보면, 토요일에는 2만 5천 건 이상으로 가장 빈번하게 폭행 사건이 발생한 것으로 나타났습니다. 그리고 일요일이 뒤를 이어 폭행 사건이 상당히 많이 발생한 것으로 확인됩니다.</p>
+    </div>
+  </div>
+
+  <br>
+  <hr>
+
+  <div id="graph2">
+    <img src="/images/5_폭행_시간별.png" alt="">
+    <div id="des">
+      <p>폭행 사건이 가장 빈번하게 발생한 시간대는 저녁 9시부터 12시 사이로, 약 3만 5천 건이 기록되었습니다. 그 다음으로 빈도가 높은 시간대는 저녁 6시부터 9시 사이와 새벽 3시부터 6시 사이로
+        확인되었습니다. 이를 통해 주로 저녁 시간대에 폭행 사건이 주로 발생한 것으로 판단됩니다</p>
+    </div>
+  </div>
+  <footer>
+    <h3>Made by_Myeong, Yeon, Kyeong, Eun</h3>
+    <h4>@MultiCampus 6th</h4>
+  </footer>
+</body>
+
+</html>
